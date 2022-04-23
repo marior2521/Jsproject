@@ -8,7 +8,9 @@ import AddFavourites from './components/AddFavourites';
 import RemoveFavourites from './components/RemoveFavourites';
 
 const App = () => {
-	const [movies, setMovies] = useState([]);
+	const [movies, setMovies] = useState([
+	{"Title":"Dragon Ball Super: Broly","Year":"2018","Rated":"PG","Released":"16 Jan 2019","Runtime":"100 min","Genre":"Animation, Action, Adventure","Director":"Tatsuya Nagamine","Writer":"Akira Toriyama","Actors":"Masako Nozawa, Aya Hisakawa, Ryô Horikawa","Plot":"Goku and Vegeta encounter Broly, a Saiyan warrior unlike any fighter they've faced before.","Language":"Japanese","Country":"Japan","Awards":"2 nominations","Poster":"https://m.media-amazon.com/images/M/MV5BMjhhMDU5Y2QtMzcyZS00ZGE1LTg3ZjMtMTYyOTM0OTFlYTRkXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg","Ratings":[{"Source":"Internet Movie Database","Value":"7.8/10"},{"Source":"Rotten Tomatoes","Value":"82%"},{"Source":"Metacritic","Value":"59/100"}],"Metascore":"59","imdbRating":"7.8","imdbVotes":"25,938","imdbID":"tt7961060","Type":"movie","DVD":"16 Apr 2019","BoxOffice":"$30,712,119","Production":"N/A","Website":"N/A","Response":"True"}
+	]);
 	const [favourites, setFavourites] = useState([]);
 	const [searchValue, setSearchValue] = useState('');
 
